@@ -1,14 +1,118 @@
-<html>
-  <head>
-    <meta name="title" content="Berkay Toklucu">
-    <meta name="description" content="I have created a GitHub profile page to introduce myself, detailing the programming languages I know, my projects, experiences, education, and more. This profile serves as a comprehensive overview of my skills and background.">
-    <meta name="keywords" content="Portfolio, BerkayToklucu">
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf16">
-    <meta name="language" content="English, Turkish">
-    <meta name="author" content="Berkay Toklucu">
-    <title> Berkay Toklucu </title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="assets/styles.css">
-  </head>
-  <body></body>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div class="theme-toggle">
+            <span class="theme-icon light-icon">&#9728;</span> <!-- Light theme icon -->
+            <span class="theme-icon dark-icon">&#9790;</span> <!-- Dark theme icon -->
+        </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </header>
+        <nav id="menu" class="hidden">
+            <ul>
+                <li><a href="#front-end">Front End Developer</a></li>
+                <li><a href="#pages">Pages</a></li>
+                <li><a href="#me">Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#technologies">Technologies I Use</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="front-end">
+                <div>
+                    <h1>Front End Developer</h1>
+                </div>
+                <img class="profile-photo" src="https://avatars.githubusercontent.com/u/70262730?v=4"></img>
+            </section>
+            <section id="pages">
+                <h2>Pages</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="me">
+                <h2>Me</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="experience">
+                <h2>Experience</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="year">2024</div>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="year">2023</div>
+                    </div>
+                    <div class="card">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="year">2022</div>
+                    </div>
+                </div>
+            </section>
+            <section id="technologies">
+                <h2>Technologies I Use</h2>
+                <div class="card-grid">
+                    <div class="tech-card">
+                        <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML">
+                        <p>HTML</p>
+                    </div>
+                    <div class="tech-card">
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS">
+                        <p>CSS3</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            &copy; 2024 Portfolio. All rights reserved.
+        </div>
+        </footer>
+    </div>
+    <script src="assets/index.js"></script>
+</body>
 </html>
