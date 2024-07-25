@@ -125,6 +125,11 @@ h2 {
   gap: 30px;
   padding: 1px 1px 60px 1px;
 }
+.card-grid-technologies{
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  display: grid;
+}
 .card, .tech-card {
   background: #e5e5e566;
   border-radius: 12px;
@@ -157,12 +162,13 @@ h2 {
   font-size: 0.9rem;
 }
 footer {
+  font-size: 15px;
   text-align: center;
   padding: 30px;
   background: #fff;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   border-top: 1px solid #ddd;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 .hidden {
   display: none;
