@@ -132,14 +132,14 @@ h2 {
 }
 .card, .tech-card {
   background: #e5e5e566;
-  border-radius: 12px;
+  border-radius: 3px;
   padding: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
   position: relative;
 }
 .card:hover {
-  background: #f0f0f0;
+  background: #ebeaea;
 }
 .tech-card {
   display: flex;
@@ -147,6 +147,10 @@ h2 {
   gap: 10px;
   width: 200px;
   height: 20px;
+  outline: 1px solid #00000057;
+}
+.tech-card:hover {
+  background: #d3d3d3;
 }
 .tech-card img {
   width: 40px;
