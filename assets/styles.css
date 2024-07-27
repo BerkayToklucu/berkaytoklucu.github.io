@@ -198,6 +198,10 @@ body.dark-theme .card, body.dark-theme .tech-card {
   background-color: #2c2c2c;
   color: #f9fafb;
 }
+body.dark-theme .card, body.dark-theme .tech-card:hover {
+  background-color: #222222;
+  color: #f9fafb;
+}
 body.dark-theme .card:hover {
   background: #3a3a3a;
 }
