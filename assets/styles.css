@@ -103,10 +103,11 @@ main {
   margin-bottom: 70px;
 }
 .profile-photo {
-  width: 220px;
-  height: 220px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   background: #ddd;
+  user-select: none;
 }
 h1 {
   font-size: 3.5rem;
@@ -122,7 +123,7 @@ h2 {
 .card-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 32px;
   padding: 1px 1px 50px 1px;
 }
 .card-grid-technologies {
@@ -132,7 +133,7 @@ h2 {
 }
 .card, .tech-card {
   background: #e5e5e566;
-  border-radius: 3px;
+  border-radius: 13px;
   padding: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
@@ -147,10 +148,11 @@ h2 {
   gap: 10px;
   width: 180px;
   height: 18px;
-  outline: 1px solid #00000057;
+  outline: 1px solid #8d8d8d57;
+  user-select: none;
 }
 .tech-card:hover {
-  background: #d3d3d3;
+  background: #fbfbfb;
 }
 .tech-card img {
   width: 36px;
@@ -170,8 +172,7 @@ footer {
   text-align: center;
   padding: 25px;
   background: #fff;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.234); 
   margin-top: 80px;
 }
 .hidden {
@@ -209,11 +210,15 @@ body.dark-theme .card:hover {
   font-size: 1.25rem;
   margin: 0 0 15px;
 }
+.card h4{
+  font-size: 1.1rem;
+  margin: 0 0 25px;
+}
 .card p {
-  font-size: 13px;
+  font-size: 14px;
   margin: 0;
-      margin-top: -10px;
-    padding: 0px 0px 10px 0px;
+  margin-top: -10px;
+  padding: 0px 0px 10px 0px;
 }
 .tech-card p {
   font-size: 13px;
@@ -230,8 +235,8 @@ body.dark-theme .year {
   height: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background: #e1e1e1;
-  border: 0px none #ffffff;
+  background: #b5b5b5;
+  border: 0px none #b7b7b7;
   border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover {

@@ -39,4 +39,22 @@ document.addEventListener('DOMContentLoaded', () => {
   
     menuToggle.addEventListener('click', toggleMenu);
   });
+
   
+// Redirects
+
+function repositories() {
+  window.open('https://github.com/BerkayToklucu?tab=repositories', '_blank');
+}  
+function galatasaray() {
+  window.open('https://github.com/BerkayToklucu/Galatasaray', '_blank');
+} 
+function webnet() {
+  window.open('https://github.com/BerkayToklucu/WebNet', '_blank');
+}  
+function portfolio() {
+  window.open('https://berkaytoklucu.github.io', '_blank');
+}  
+function contact() {
+  window.open('mailto:ahmetberkaytoklucu@gmail.com', '_blank');
+}  
