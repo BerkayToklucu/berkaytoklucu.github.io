@@ -119,11 +119,16 @@ h2{
   border-radius:5px;
   font-size:.8rem
 }
-footer{
-  font-size:16px;
-  text-align:center;
-  padding:25px;
-  margin-top:80px
+footer {
+  font-size: 14px;
+  text-align: center;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.234); 
+  margin-top: 80px;
+}
+.hidden {
+  display: none;
 }
 body.dark-theme{
   background-color:#171717;
