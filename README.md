@@ -19,7 +19,7 @@ Initiator, Coordinator and Contributor; [BerkayToklucu](https://www.github.com/B
 ## FAQ
 
 ### 1. How can I reach you?
-You can reach me through the social media accounts listed on my GitHub profile or on the site shared via this repository. Additionally, if you prefer to contact me via email, you can send a message to berkaytoklucu@proton.me.
+You can reach me through the social media accounts listed on my GitHub profile or on the site shared via this repository. Additionally, if you prefer to contact me via email, you can send a message to info@berkaytoklucu.com.
 
 ### 2. Can I utilize the project either entirely or partially?
 Yes, you can utilize the project either entirely or partially. Feel free to use any part that suits your needs. If you have any questions, please let me know.
